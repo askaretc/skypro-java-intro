@@ -56,5 +56,33 @@ public class Program {
         System.out.println(frog);
         frog += 4;
         System.out.println(frog);
+
+
+        ////////// HOMEWORK 3 //////////
+        System.out.println("\n\nHOMEWORK 3");
+
+        ////////// Task 6 //////////
+        System.out.println("\nTask 6:");
+        var firstBoxerWeight = 78.2;
+        var secondBoxerWeight = 82.7;
+        System.out.println("Общий вес двух бойцов: " + (firstBoxerWeight + secondBoxerWeight));
+        System.out.println("Разница между весами бойцов: " + (secondBoxerWeight - firstBoxerWeight));
+
+        ////////// Task 7 //////////
+        System.out.println("\nTask 7:");
+        System.out.println("Разница между весами бойцов (вычитание из большего веса меньшего): " + (secondBoxerWeight - firstBoxerWeight));
+        System.out.println("Разница между весами бойцов (функция остаток от деления ): " + (secondBoxerWeight % firstBoxerWeight));
+
+        ////////// Task 8 //////////
+        System.out.println("\nTask 8:");
+        // 1
+        var workingHours = 640;
+        var dailyHours = 8;
+        var workers = workingHours / dailyHours;
+        System.out.println("Всего работников в компании – " + workers + " человек");
+        // 2
+        var newWorkers = workers + 94;
+        var newWorkingHours = newWorkers * dailyHours;
+        System.out.println("Если в компании работает " + newWorkers + " человек, то всего " + newWorkingHours + " часов работы может быть поделено между сотрудниками");
     }
 }
