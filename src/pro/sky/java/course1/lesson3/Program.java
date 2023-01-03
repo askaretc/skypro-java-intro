@@ -100,5 +100,52 @@ public class Program {
         } else {
             System.out.println("Стоячих мест нет");
         }
+
+
+        ////////// HOMEWORK 3 //////////
+        System.out.println("\n\nHOMEWORK 3");
+
+        ////////// Task 1 //////////
+        System.out.println("\nTask 1:");
+
+        int year = 3;
+        if (year >= 2 && year <= 6) {
+            System.out.println("Если возраст человека равен " + year + ", то ему нужно ходить в детский сад");
+        } else if (year > 6 && year <= 18) {
+            System.out.println("Если возраст человека равен " + year + ", то ему нужно ходить в школу");
+        } else if (year > 18 && year <= 24) {
+            System.out.println("Если возраст человека равен " + year + ", то ему следует учиться в университете");
+        } else if (year > 24){
+            System.out.println("Если возраст человека равен " + year + ", то ему пора ходить на работу");
+        }
+
+
+        ////////// Task 2 //////////
+        System.out.println("\nTask 2:");
+
+        // Переменная year инициализирована в Задаче 1 Домашнего задания - 3
+        if (year <= 5) {
+            System.out.println("Нам очень жаль, но тебе ещё нельзя кататься на аттракционе");
+        } else if (year <= 14) {
+            System.out.println("Тебе можно кататься на аттракционе только в сопровождении взрослого");
+        } else {
+            System.out.println("Тебе можно кататься одному на аттракционе");
+        }
+
+
+        ////////// Task 3 //////////
+        System.out.println("\nTask 3:");
+
+        int one = 10;
+        int two = -7;
+        int three = 888;
+
+        if (one > two && one > three) {
+            System.out.println("Из трёх заданных чисел (" + one + ", " + two + ", " + three + "), большим является число " + one);
+        } else if (two > one && two > three) {
+            System.out.println("Из трёх заданных чисел (" + one + ", " + two + ", " + three + "), большим является число " + two);
+        } else {
+            System.out.println("Из трёх заданных чисел (" + one + ", " + two + ", " + three + "), большим является число " + three);
+        }
     }
 }
