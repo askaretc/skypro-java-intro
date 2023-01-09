@@ -59,5 +59,110 @@ public class Program {
 
         for (int i = 1; i <= 512; i *= 2)
             System.out.println(i);
+
+
+        ////////// HOMEWORK 3 //////////
+        System.out.println("\n\nHOMEWORK 3");
+
+        ////////// Task 1 //////////
+        System.out.println("\nTask 1:");
+
+        int money = 29_000;
+        int total = 0;
+        String month = "";
+        char rubleSymbol = '₽';
+        for (int i = 1; i <= 12; i++) {
+            total += money;
+            switch (i) {
+                case 1:
+                    month = "Январь";
+                    break;
+                case 2:
+                    month = "Февраль";
+                    break;
+                case 3:
+                    month = "Март";
+                    break;
+                case 4:
+                    month = "Апрель";
+                    break;
+                case 5:
+                    month = "Май";
+                    break;
+                case 6:
+                    month = "Июнь";
+                    break;
+                case 7:
+                    month = "Июль";
+                    break;
+                case 8:
+                    month = "Август";
+                    break;
+                case 9:
+                    month = "Сентябрь";
+                    break;
+                case 10:
+                    month = "Октябрь";
+                    break;
+                case 11:
+                    month = "Ноябрь";
+                    break;
+                case 12:
+                    month = "Декабрь";
+                    break;
+            }
+            System.out.println("Месяц " + month + ", сумма накоплений равна " + total + rubleSymbol);
+        }
+
+
+        ////////// Task 2 //////////
+        System.out.println("\nTask 2:");
+
+        int monthlySaving = 29_000;
+        int totalSum = 0;
+        String monthName = "";
+        for (int i = 1; i <= 12; i++) {
+            totalSum += totalSum / 100;
+            totalSum += monthlySaving;
+            switch (i) {
+                case 1:
+                    monthName = "Январь";
+                    break;
+                case 2:
+                    monthName = "Февраль";
+                    break;
+                case 3:
+                    monthName = "Март";
+                    break;
+                case 4:
+                    monthName = "Апрель";
+                    break;
+                case 5:
+                    monthName = "Май";
+                    break;
+                case 6:
+                    monthName = "Июнь";
+                    break;
+                case 7:
+                    monthName = "Июль";
+                    break;
+                case 8:
+                    monthName = "Август";
+                    break;
+                case 9:
+                    monthName = "Сентябрь";
+                    break;
+                case 10:
+                    monthName = "Октябрь";
+                    break;
+                case 11:
+                    monthName = "Ноябрь";
+                    break;
+                case 12:
+                    monthName = "Декабрь";
+                    break;
+            }
+            System.out.println("Месяц " + monthName + ", сумма накоплений равна " + totalSum + rubleSymbol);
+        }
     }
 }
