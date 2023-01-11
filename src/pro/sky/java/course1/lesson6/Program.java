@@ -21,7 +21,7 @@ public class Program {
 
 
         ////////// Task 2 //////////
-        System.out.println("\n\nTask 2:");
+        System.out.println("\nTask 2:");
 
         int i = 1;
         while (i <= 10) {
@@ -35,7 +35,7 @@ public class Program {
 
 
         ////////// Task 3 //////////
-        System.out.println("\n\n\nTask 3:");
+        System.out.println("\n\nTask 3:");
 
         int population = 12_000_000;
         int birthRateAYearPerThousandPeople = 17;
@@ -65,7 +65,7 @@ public class Program {
 
 
         ////////// Task 2 //////////
-        System.out.println("\n\nTask 2:");
+        System.out.println("\nTask 2:");
 
         // Возвращаем исходные значения переменным
         deposit = 15_000;
@@ -81,7 +81,7 @@ public class Program {
 
 
         ////////// Task 3 //////////
-        System.out.println("\n\nTask 3:");
+        System.out.println("\nTask 3:");
 
         int yearsAmount = 9;
         int monthsAmount = yearsAmount * 12;
@@ -99,12 +99,37 @@ public class Program {
 
 
         ////////// Task 4 //////////
-        System.out.println("\n\nTask 4:");
+        System.out.println("\nTask 4:");
 
         int friday = 7;     // номер первой пятницы месяца
         int daysAmountInAMonth = 31;    // количество дней в месяце
         for (; friday <= daysAmountInAMonth; friday += 7) {
             System.out.println("Сегодня пятница, " + friday + "-е число. Необходимо подготовить отчет.");
+        }
+
+
+        ////////// HOMEWORK 3 //////////
+        System.out.println("\n\nHOMEWORK 3");
+
+        ////////// Task 1 //////////
+        System.out.println("\nTask 1:");
+
+        int year = 0;
+        int currentYear = 2022;
+        for (; year <= currentYear + 100; year += 79) {
+            if (year >= currentYear - 200) {
+                System.out.println(year);
+            }
+        }
+
+
+        ////////// Task 2 //////////
+        System.out.println("\nTask 2:");
+
+        int two = 2;
+        for (int j = 1; j <= 10; j++) {
+            int answer = two * j;
+            System.out.println(two + "*" + j + "=" + answer);
         }
     }
 }
