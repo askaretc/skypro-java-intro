@@ -10,7 +10,7 @@ public class Library {
     }
 
 
-    public void setBookToLibrary(Book book) {
+    public void addBook(Book book) {
         booksArray[getIndexOfFreeElement()] = book;
     }
 
@@ -64,6 +64,23 @@ public class Library {
     }
 
     public void setPublishingYearByName(String bookName, int publishingYear) {
+        if (publishingYear < 0) {
+            throw new IllegalArgumentException("The year of publication cannot be negative.");
+        }
         booksArray[getIndexOfBook(bookName)].setPublishingYear(publishingYear);
+    }
+
+
+    @Override
+    public String toString() {
+        StringBuilder sb = new StringBuilder();
+        sb.append("Library: " + "\n");
+        for (Book book : booksArray) {
+            if (book != null) {
+                String s = book.toString();
+                sb.append(s).append("\n");
+            }
+        }
+        return sb.toString();
     }
 }
