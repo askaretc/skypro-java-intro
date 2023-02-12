@@ -1,4 +1,4 @@
-package pro.sky.java.course1.additional.tasks1;
+package pro.sky.java.course1.additional.task1;
 
 public class Program {
     public static void main(String[] args) {

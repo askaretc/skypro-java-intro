@@ -1,4 +1,4 @@
-package pro.sky.java.course1.lesson8;
+package pro.sky.java.course1.lesson08;
 
 import java.util.Arrays;
 import java.util.Random;

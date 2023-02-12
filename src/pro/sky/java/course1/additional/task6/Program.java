@@ -1,4 +1,4 @@
-package pro.sky.java.course1.additional.tasks6;
+package pro.sky.java.course1.additional.task6;
 
 import java.util.Random;
 
