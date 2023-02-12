@@ -1,4 +1,4 @@
-package pro.sky.java.course1.additional.tasks4;
+package pro.sky.java.course1.additional.task4;
 
 import java.util.Arrays;
 
